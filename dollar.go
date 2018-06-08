@@ -12,5 +12,6 @@ func (d *Dollar) Times(multiplier int) *Dollar {
 
 // Equals compare dollars with everything else
 func (d *Dollar) Equals(i interface{}) bool {
-	return true
+	dollar, ok := i.(Dollar)
+	return ok && d.Amount == dollar.Amount
 }

@@ -19,4 +19,7 @@ func TestEquality(t *testing.T) {
 	if !five.Equals(Dollar{5}) {
 		t.Error("Expected to be equal!")
 	}
+	if five.Equals(Dollar{6}) {
+		t.Error("Expected to be different!")
+	}
 }
