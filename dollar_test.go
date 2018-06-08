@@ -13,3 +13,10 @@ func TestMultiplication(t *testing.T) {
 		t.Errorf("Expected: 15, got: %d", product.Amount)
 	}
 }
+
+func TestEquality(t *testing.T) {
+	five := Dollar{5}
+	if !five.Equals(Dollar{5}) {
+		t.Error("Expected to be equal!")
+	}
+}
