@@ -6,6 +6,6 @@ type Dollar struct {
 }
 
 // Times multiply the value of Dollar by a given number
-func (d *Dollar) Times(multiplier int) {
-	d.Amount = d.Amount * multiplier
+func (d *Dollar) Times(multiplier int) *Dollar {
+	return &Dollar{d.Amount * multiplier}
 }
