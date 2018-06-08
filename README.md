@@ -7,3 +7,7 @@ The idea is to separate the implementation by commits, following as close as pos
 ## How to run the examples
 
 I'm using the standard testing framework that's built in the Go language, so you just need to run `go test`.
+
+## The TODO file
+
+The [TODO.md](TODO.md) file represents the TODO list that evolves chapter by chapter.
