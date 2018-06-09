@@ -12,6 +12,8 @@ I'm also taking a few larger steps when the book takes it too slow.
 
 I'm using the standard testing framework that's built in the Go language, so you just need to run `go test`.
 
+For a more complete output you may use `go test -v -cover`.
+
 ## The TODO file
 
 The [TODO.md](TODO.md) file represents the TODO list that evolves chapter by chapter.
